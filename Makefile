@@ -47,11 +47,6 @@ image/$(YOCTO_IMAGE):
 	wget -N -P image $(YOCTO_URL)/$(YOCTO_IMAGE)
 
 
-#
-#     
-#
-
-
 skels:
 	$(MAKE) -C labs skels
 
