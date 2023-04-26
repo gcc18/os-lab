@@ -1,0 +1,8 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/akhildevelops/devcontainer-features/apt:0": {
+      "PACKAGES": "util-linux,build-essential,bison,flex,libssl-dev,libelf-dev,bc,initramfs-tools-core"
+    }
+  }
+}
